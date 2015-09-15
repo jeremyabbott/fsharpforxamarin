@@ -11,4 +11,4 @@ let getGists () =
     Gists.Load(baseUrl)
 
 let getGistsAsync () =
-    Gists.AsyncLoad(sprintf "https://api.github.com/gists")
+    Gists.AsyncLoad baseUrl
